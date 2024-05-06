@@ -1,5 +1,5 @@
 ,Brand,Model,Case Material,Strap Material,Movement Type,Water Resistance,Case Diameter (mm),Case Thickness (mm),Band Width (mm),Dial Color,Crystal Material,Complications,Power Reserve,Price (USD)
-2,Tag Heuer,Carrera,Stainless Steel,Leather,Automatic,100,41.0,13.0,20.0,White,Sapphire,Chronograph,42.0,4200.0
+2,Tag Heuer,watchrera,Stainless Steel,Leather,Automatic,100,41.0,13.0,20.0,White,Sapphire,Chronograph,42.0,4200.0
 3,Breitling,Navitimer,Stainless Steel,Stainless Steel,Automatic,30,43.0,14.25,22.0,Black,Sapphire,Chronograph,70.0,7900.0
 5,Jaeger-LeCoultre,Reverso,Stainless Steel,Leather,Manual,30,42.9,9.2,20.0,Black,Sapphire,None,45.0,5500.0
 6,Seiko,Prospex,Stainless Steel,Rubber,Automatic,200,44.3,12.9,20.0,Black,Sapphire,Date,50.0,1400.0
@@ -71,7 +71,7 @@
 94,Omega,Speedmaster,Stainless Steel,Stainless Steel,Manual,50,42.0,14.3,20.0,Black,Hesalite,"Chronograph, Tachymeter",48.0,5500.0
 95,Breitling,Superocean Heritage,Stainless Steel,Rubber,Automatic,200,42.0,14.35,22.0,Black,Sapphire,Date,38.0,4800.0
 96,Jaeger-LeCoultre,Master Control,Stainless Steel,Leather,Automatic,50,40.0,8.8,20.0,Silver,Sapphire,Date,70.0,6500.0
-97,Cartier,Santos,Stainless Steel,Stainless Steel,Automatic,100,39.8,9.08,21.5,Silver,Sapphire,Date,42.0,7500.0
+97,watchtier,Santos,Stainless Steel,Stainless Steel,Automatic,100,39.8,9.08,21.5,Silver,Sapphire,Date,42.0,7500.0
 98,Zenith,Elite,Stainless Steel,Leather,Automatic,50,40.5,9.15,20.0,Silver,Sapphire,None,50.0,4500.0
 99,Panerai,Luminor Base,Stainless Steel,Leather,Manual,100,44.0,10.5,24.0,Black,Sapphire,None,56.0,5800.0
 100,Audemars Piguet,Royal Oak,Stainless Steel,Stainless Steel,Automatic,50,41.0,10.4,20.0,Silver,Sapphire,Date,60.0,21000.0
@@ -154,7 +154,7 @@
 202,Girard-Perregaux,Laureato,Stainless Steel,Stainless Steel,Automatic,100,41.0,10.88,22.0,Black,Sapphire,Date,46.0,9700.0
 203,Zenith,Chronomaster,Stainless Steel,Leather,Automatic,50,42.0,14.05,22.0,Silver,Sapphire,Chronograph,50.0,7400.0
 204,Breitling,Superocean Heritage II,Stainless Steel,Rubber,Automatic,200,44.0,14.2,22.0,Black,Sapphire,Date,70.0,4300.0
-205,Cartier,Santos de Cartier,Stainless Steel,Stainless Steel,Automatic,100,39.8,9.08,20.0,Silver,Sapphire,Date,42.0,6500.0
+205,watchtier,Santos de watchtier,Stainless Steel,Stainless Steel,Automatic,100,39.8,9.08,20.0,Silver,Sapphire,Date,42.0,6500.0
 206,Omega,Speedmaster,Stainless Steel,Leather,Manual,50,42.0,13.7,20.0,Black,Hesalite,Chronograph,48.0,5500.0
 207,Rolex,GMT-Master II,Stainless Steel,Stainless Steel,Automatic,100,40.0,12.4,20.0,Black,Sapphire,"GMT, Date",70.0,9100.0
 208,Jaeger-LeCoultre,Master Control,Stainless Steel,Leather,Automatic,50,40.0,8.8,20.0,Silver,Sapphire,Date,70.0,7500.0
@@ -172,7 +172,7 @@
 224,Hamilton,Khaki Field,Stainless Steel,NATO Strap,Automatic,100,38.0,9.7,20.0,Black,Sapphire,None,80.0,595.0
 226,IWC,Pilot's Watch,Stainless Steel,Leather,Automatic,60,41.0,15.3,22.0,Black,Sapphire,Date,72.0,5400.0
 227,Patek Philippe,Calatrava,White Gold,Leather,Manual,30,37.0,7.7,20.0,White,Sapphire,None,44.0,25000.0
-228,Hublot,Big Bang,Carbon Fiber,Rubber,Automatic,100,44.0,14.5,25.0,Black,Sapphire,Chronograph,72.0,15000.0
+228,Hublot,Big Bang,watchbon Fiber,Rubber,Automatic,100,44.0,14.5,25.0,Black,Sapphire,Chronograph,72.0,15000.0
 229,Zenith,Chronomaster,Stainless Steel,Leather,Automatic,50,38.0,12.6,20.0,Silver,Sapphire,Chronograph,50.0,7500.0
 230,Audemars Piguet,Royal Oak,Stainless Steel,Stainless Steel,Automatic,50,41.0,9.8,20.0,Blue,Sapphire,Date,60.0,25000.0
 231,Vacheron Constantin,Overseas,Stainless Steel,Stainless Steel,Automatic,50,41.0,11.0,22.0,Blue,Sapphire,Date,40.0,18000.0
@@ -199,11 +199,11 @@
 258,Rolex,Datejust,Stainless Steel,Stainless Steel,Automatic,100,41.0,11.8,21.0,Blue,Sapphire,Date,70.0,7800.0
 259,Omega,Speedmaster,Stainless Steel,Stainless Steel,Automatic,50,42.0,13.75,20.0,Black,Sapphire,"Chronograph, Date",48.0,5300.0
 260,Tag Heuer,Monaco,Stainless Steel,Leather,Automatic,100,39.0,14.5,22.0,Blue,Sapphire,Chronograph,42.0,5900.0
-262,Cartier,Ballon Bleu,Stainless Steel,Stainless Steel,Automatic,30,42.0,13.0,22.0,Silver,Sapphire,Date,42.0,7500.0
+262,watchtier,Ballon Bleu,Stainless Steel,Stainless Steel,Automatic,30,42.0,13.0,22.0,Silver,Sapphire,Date,42.0,7500.0
 263,Jaeger-LeCoultre,Master Ultra Thin,Stainless Steel,Leather,Automatic,50,39.0,7.5,20.0,White,Sapphire,Date,38.0,6200.0
 264,Rolex,GMT-Master II,Stainless Steel,Stainless Steel,Automatic,100,40.0,12.5,20.0,Black,Sapphire,"GMT, Date",70.0,9500.0
 265,Omega,Aqua Terra,Stainless Steel,Stainless Steel,Automatic,150,41.5,13.0,20.0,Silver,Sapphire,Date,60.0,4700.0
-268,Cartier,Santos,Stainless Steel,Leather,Automatic,100,35.1,8.83,22.0,Silver,Sapphire,Date,42.0,5300.0
+268,watchtier,Santos,Stainless Steel,Leather,Automatic,100,35.1,8.83,22.0,Silver,Sapphire,Date,42.0,5300.0
 269,Rolex,Daytona,Yellow Gold,Leather,Automatic,100,40.0,12.4,20.0,Ivory,Sapphire,Chronograph,72.0,39500.0
 270,Omega,Speedmaster,Stainless Steel,Stainless Steel,Manual,50,42.0,14.3,20.0,Black,Sapphire,Chronograph,48.0,5400.0
 271,TAG Heuer,Monaco,Stainless Steel,Leather,Automatic,100,39.0,14.0,22.0,Blue,Sapphire,Chronograph,42.0,6550.0
@@ -244,7 +244,7 @@
 314,Audemars Piguet,Royal Oak,Rose Gold,Rose Gold,Automatic,50,37.0,9.8,18.0,Blue,Sapphire,None,60.0,36500.0
 315,Patek Philippe,Nautilus,Stainless Steel,Stainless Steel,Automatic,120,40.5,8.3,22.0,Blue,Sapphire,Date,45.0,51000.0
 316,IWC,Portuguese,Stainless Steel,Leather,Automatic,30,42.3,14.2,22.0,White,Sapphire,Date,60.0,8800.0
-318,Hublot,Big Bang,Carbon Fiber,Rubber,Automatic,100,44.0,14.5,22.0,Black,Sapphire,Chronograph,72.0,19500.0
+318,Hublot,Big Bang,watchbon Fiber,Rubber,Automatic,100,44.0,14.5,22.0,Black,Sapphire,Chronograph,72.0,19500.0
 319,Ulysse Nardin,Marine,Stainless Steel,Rubber,Automatic,100,43.0,12.6,22.0,Blue,Sapphire,Date,60.0,7000.0
 320,Breguet,Classique,18k White Gold,Leather,Manual,30,38.0,7.45,20.0,Silver,Sapphire,None,65.0,23000.0
 321,Girard-Perregaux,Laureato,Stainless Steel,Stainless Steel,Automatic,100,42.0,10.88,25.0,Black,Sapphire,Date,46.0,9500.0
@@ -252,7 +252,7 @@
 323,Vacheron Constantin,Patrimony,18k Rose Gold,Leather,Manual,30,42.0,7.65,20.0,Silver,Sapphire,None,65.0,22500.0
 325,IWC,Portugieser,Stainless Steel,Leather,Automatic,30,41.0,12.3,22.0,Blue,Sapphire,Date,60.0,6500.0
 326,Audemars Piguet,Royal Oak,Stainless Steel,Stainless Steel,Automatic,50,41.0,9.8,20.0,Blue,Sapphire,Date,60.0,20000.0
-327,Hublot,Big Bang,Carbon Fiber,Rubber,Automatic,100,44.0,14.5,26.0,Black,Sapphire,Chronograph,72.0,12000.0
+327,Hublot,Big Bang,watchbon Fiber,Rubber,Automatic,100,44.0,14.5,26.0,Black,Sapphire,Chronograph,72.0,12000.0
 328,Girard-Perregaux,Laureato,Stainless Steel,Stainless Steel,Automatic,100,42.0,10.88,22.0,Blue,Sapphire,Date,54.0,6500.0
 329,Chopard,Mille Miglia,Stainless Steel,Leather,Automatic,50,42.0,11.43,22.0,Black,Sapphire,Chronograph,48.0,6200.0
 330,Vacheron Constantin,Overseas,Stainless Steel,Stainless Steel,Automatic,150,41.0,11.0,22.0,Blue,Sapphire,Date,60.0,15000.0
@@ -262,7 +262,7 @@
 334,Tudor,Black Bay,Stainless Steel,Leather,Automatic,200,41.0,12.7,22.0,Black,Sapphire,None,70.0,3500.0
 335,Rolex,Datejust,Stainless Steel,Stainless Steel,Automatic,100,36.0,12.5,20.0,Blue,Sapphire,"Date, Cyclops",70.0,7400.0
 336,Omega,Speedmaster,Stainless Steel,Stainless Steel,Automatic,50,42.0,14.3,20.0,Black,Hesalite,Chronograph,48.0,5000.0
-337,Cartier,Santos,Stainless Steel,Stainless Steel,Automatic,100,39.8,9.08,20.0,Silver,Sapphire,Date,42.0,6200.0
+337,watchtier,Santos,Stainless Steel,Stainless Steel,Automatic,100,39.8,9.08,20.0,Silver,Sapphire,Date,42.0,6200.0
 342,Zenith,Elite Classic,Stainless Steel,Leather,Automatic,50,39.0,8.15,20.0,Silver,Sapphire,Date,50.0,4900.0
 343,Longines,Conquest Classic,Stainless Steel,Leather,Automatic,50,40.0,10.75,20.0,Silver,Sapphire,Date,54.0,1850.0
 344,Montblanc,Star Legacy,Stainless Steel,Leather,Automatic,50,42.0,11.4,22.0,White,Sapphire,"Date, Moonphase",42.0,3900.0
@@ -309,7 +309,7 @@
 395,Omega,Constellation,Stainless Steel,Stainless Steel,Automatic,100,39.0,10.6,20.0,Black,Sapphire,Date,50.0,4800.0
 396,Tag Heuer,Monaco,Stainless Steel,Leather,Automatic,100,39.0,14.5,22.0,Blue,Sapphire,Chronograph,40.0,5200.0
 397,Breitling,Chronomat,Stainless Steel,Stainless Steel,Automatic,200,44.0,16.95,22.0,Blue,Sapphire,"Chronograph, Date",70.0,6900.0
-398,Cartier,Santos,Stainless Steel,Stainless Steel,Automatic,100,35.1,8.83,18.0,Silver,Sapphire,Date,42.0,5500.0
+398,watchtier,Santos,Stainless Steel,Stainless Steel,Automatic,100,35.1,8.83,18.0,Silver,Sapphire,Date,42.0,5500.0
 399,Rolex,Datejust,Stainless Steel,Stainless Steel,Automatic,100,41.0,11.7,20.0,White,Sapphire,Date,70.0,8000.0
 400,Patek Philippe,Nautilus,Stainless Steel,Stainless Steel,Automatic,120,40.5,8.3,21.0,Blue,Sapphire,Date,45.0,40000.0
 401,Audemars Piguet,Royal Oak,Stainless Steel,Stainless Steel,Automatic,50,37.0,9.0,16.0,Blue,Sapphire,Date,60.0,18000.0
@@ -330,7 +330,7 @@
 419,Panerai,Luminor,Titanium,Leather,Manual,100,44.0,13.05,24.0,Black,Sapphire,None,56.0,6900.0
 420,Rolex,Daytona,Stainless Steel,Stainless Steel,Automatic,100,40.0,12.4,20.0,White,Sapphire,Chronograph,72.0,13500.0
 421,Omega,Speedmaster,Stainless Steel,Stainless Steel,Manual,50,42.0,14.3,20.0,Black,Hesalite,Chronograph,48.0,4500.0
-422,Cartier,Santos,Stainless Steel,Leather,Automatic,100,39.8,9.08,20.0,Silver,Sapphire,Date,42.0,6600.0
+422,watchtier,Santos,Stainless Steel,Leather,Automatic,100,39.8,9.08,20.0,Silver,Sapphire,Date,42.0,6600.0
 425,Jaeger-LeCoultre,Master Ultra Thin,Stainless Steel,Leather,Automatic,50,40.0,7.45,20.0,Silver,Sapphire,None,43.0,6300.0
 426,Patek Philippe,Calatrava,18k Rose Gold,Leather,Manual,30,38.0,7.68,19.0,White,Sapphire,None,44.0,22900.0
 427,Audemars Piguet,Royal Oak,Stainless Steel,Stainless Steel,Automatic,50,41.0,9.8,20.0,Black,Sapphire,Date,60.0,22500.0
@@ -384,7 +384,7 @@
 487,Omega,Speedmaster,Stainless Steel,Stainless Steel,Manual,50,42.0,14.3,20.0,Black,Hesalite,Chronograph,48.0,5200.0
 488,Patek Philippe,Nautilus,Stainless Steel,Stainless Steel,Automatic,120,40.5,8.3,20.0,Blue,Sapphire,"Date, Chronograph",55.0,67000.0
 489,Audemars Piguet,Royal Oak,Stainless Steel,Stainless Steel,Automatic,50,41.0,9.8,20.0,Blue,Sapphire,"Date, Power Reserve",60.0,25000.0
-490,Cartier,Ballon Bleu,Stainless Steel,Stainless Steel,Automatic,30,36.6,12.05,18.0,Silver,Sapphire,Date,42.0,4700.0
+490,watchtier,Ballon Bleu,Stainless Steel,Stainless Steel,Automatic,30,36.6,12.05,18.0,Silver,Sapphire,Date,42.0,4700.0
 491,IWC,Portugieser,Stainless Steel,Leather,Automatic,30,42.3,14.2,22.0,Blue,Sapphire,None,60.0,9100.0
 492,Jaeger-LeCoultre,Master Control,Stainless Steel,Leather,Automatic,50,39.0,8.5,20.0,Silver,Sapphire,"Date, Moonphase",70.0,8200.0
 494,Breguet,Classique,18K Rose Gold,Leather,Automatic,30,39.0,9.9,22.0,White,Sapphire,"Date, Moonphase",65.0,27900.0

@@ -1,0 +1,203 @@
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/style/style.css">
+    <title>Hello, world!</title>
+  </head>
+  
+  <body>
+   
+    <div class="card-body">
+      <div class="col-12" style="text-align: center">
+          <h5>This app estimates the price of a luxury watch you want to sell. Please fill in the details below: </h5>
+      </div>
+      <br>
+      <form method="post" accept-charset="utf-8" name="WatchForm" style="text-align: center">
+
+          <div class="col-md-10" style="text-align: center">
+              <label><b>Select the brand:</b> </label><br>
+              <select class="selectpicker form-control" id="brand" name="brand" required="1"
+                      onchange="load_watch_models(this.id,'watch_models')">
+                  {% for brands in brand %}
+                  <option value="{{ brands }}">{{ brands }}</option>
+                  {% endfor %}
+              </select>
+          </div>
+
+          <div class="col-md-10" >
+              <label><b>Select the model:</b> </label><br>
+              <select class="selectpicker form-control" id="watch_models" name="watch_models" required="1">
+                  {% for model in models %}
+                  <option value="{{ model }}">{{ model }}</option>
+                  {% endfor %}
+              </select>
+          </div>
+
+          <div class="col-md-10" >
+              <label><b>Select the case material:</b> </label><br>
+              <select class="selectpicker form-control" id="case_material" name="case_material" required="1">
+                  {% for material in casemat %}
+                  <option value="{{ material }}">{{ material }}</option>
+                  {% endfor %}
+              </select>
+          </div>
+
+          <div class="col-md-10" >
+              <label><b>Select the strap material:</b> </label><br>
+              <select class="selectpicker form-control" id="strap_material" name="strap_material" required="1">
+                  {% for material in strap %}
+                  <option value="{{ material }}">{{ material }}</option>
+                  {% endfor %}
+              </select>
+          </div>
+
+          <div class="col-md-10" >
+              <label><b>Select the movement type:</b> </label><br>
+              <select class="selectpicker form-control" id="movement_type" name="movement_type" required="1">
+                  {% for movement in movement %}
+                  <option value="{{ movement }}">{{ movement }}</option>
+                  {% endfor %}
+              </select>
+          </div>
+
+          <div class="col-md-10">
+              <label><b>Select the water resistance:</b> </label><br>
+              <select class="selectpicker form-control" id="water_resistance" name="water_resistance" required="1">
+                  {% for resistance in waterrezis %}
+                  <option value="{{ resistance }}">{{ resistance }}</option>
+                  {% endfor %}
+              </select>
+          </div>
+
+          <div class="col-md-10" >
+              <label><b>Select the case diameter (mm):</b> </label><br>
+              <select class="selectpicker form-control" id="case_diameter" name="case_diameter" required="1">
+                  {% for diameter in casediam %}
+                  <option value="{{ diameter }}">{{ diameter }}</option>
+                  {% endfor %}
+              </select>
+          </div>
+      
+      
+          <div class="col-md-10" >
+              <label><b>Enter the case thickness (mm):</b> </label><br>
+              <select class="selectpicker form-control" id="case_thickness" name="case_thickness" required="1">
+                {% for diameter in casethick %}
+                <option value="{{ diameter }}">{{ diameter }}</option>
+                {% endfor %}
+            </select>
+          </div>
+
+          <div class="col-md-10" >
+              <label><b>Select the band width (mm):</b> </label><br>
+              <select class="selectpicker form-control" id="band_width" name="band_width" required="1">
+                  {% for width in bandwid%}
+                  <option value="{{ width }}">{{ width }}</option>
+                  {% endfor %}
+              </select>
+          </div>
+
+          <div class="col-md-10" >
+              <label><b>Select the dial color:</b> </label><br>
+              <select class="selectpicker form-control" id="dial_color" name="dial_color" required="1">
+                  {% for color in dialcol %}
+                  <option value="{{ color }}">{{ color }}</option>
+                  {% endfor %}
+              </select>
+          </div>
+
+          <div class="col-md-10" >
+              <label><b>Select the crystal material:</b> </label><br>
+              <select class="selectpicker form-control" id="crystal_material" name="crystal_material" required="1">
+                  {% for material in crystalmat %}
+                  <option value="{{ material }}">{{ material }}</option>
+                  {% endfor %}
+              </select>
+          </div>
+          <div class="col-md-10">
+              <label><b>Select the complications:</b> </label><br>
+              <select class="selectpicker form-control" id="complications" name="complications" required="1">
+                  {% for complication in complicattion %}
+                  <option value="{{ complication }}">{{ complication }}</option>
+                  {% endfor %}
+              </select>
+          </div>
+          <div class="col-md-10" >
+              <label><b>Enter the power reserve (hours):</b> </label><br>
+              <select class="selectpicker form-control" id="power_reserve" name="power_reserve" required="1">
+                {% for power in powerres %}
+                <option value="{{ power }}">{{ power }}</option>
+                {% endfor %}
+            </select>
+          </div>
+          <br>
+          <div class="col-md-10" >
+              <button class="btn btn-primary form-control" onclick="estimate_price()">Estimate Price</button>
+          </div>
+      </form>
+      <br>
+      <div class="col-md-10">
+        <div class="col-12">
+          <h3><span id="prediction"></span></h3>
+        </div>
+      </div>
+    
+  </div>
+  
+  </body>
+    <script>
+      function form_handler(){
+        event.preventDefault();
+      }
+      function estimate_price(){
+        document.querySelector('form').addEventListener('submit',form_handler)
+      
+        var fd=new FormData(document.querySelector('form'));
+        var xhr = new XMLHttpRequest();
+
+        xhr.open('POST','/predict',true);
+        document.getElementById('prediction').innerHTML='Calculating Estimate...';
+        xhr.onreadystatechange=function()
+        {
+          if (xhr.readyState==XMLHttpRequest.DONE)
+          {
+            document.getElementById('prediction').innerHTML='Estimated price USD: '+xhr.responseText;
+          }
+        }
+        xhr.send(fd)
+      }
+
+
+    </script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
